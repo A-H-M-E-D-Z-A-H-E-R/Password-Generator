@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 24px;
+
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  background: linear-gradient(black, rgb(3, 3, 28), rgb(4, 4, 46));
+  color: #f4f4f5;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* App */
+
+.app {
+  width: min(520px, 100%);
+}
+
+/* Header */
+
+.header {
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  margin-bottom: 8px;
+
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.header p {
+  color: #a1a1aa;
+}
+
+/* Generator */
+
+.generator {
+  padding: 24px;
+
+  background: transparent;
+
+  border: 1px solid #27272a;
+  border-radius: 18px;
+}
+
+/* Password */
+
+.password-display {
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 28px;
+}
+
+.password-display input {
+  min-width: 0;
+  flex: 1;
+
+  padding: 14px 15px;
+
+  background: #18181b;
+  color: #f4f4f5;
+
+  border: 1px solid #27272a;
+  border-radius: 10px;
+
+  outline: none;
+}
+
+.password-display input::placeholder {
+  color: #52525b;
+}
+
+.password-display button {
+  padding: 0 16px;
+
+  border: 1px solid #3f3f46;
+  border-radius: 10px;
+
+  background: transparent;
+  color: #f4f4f5;
+}
+
+.password-display button:hover {
+  background: #27272a;
+}
+
+/* Settings */
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  margin-bottom: 28px;
+}
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-row label {
+  font-weight: 600;
+}
+
+#length-value {
+  min-width: 36px;
+
+  padding: 5px 9px;
+
+  text-align: center;
+
+  background: #27272a;
+  border-radius: 7px;
+
+  font-size: 0.9rem;
+}
+
+/* Range */
+
+#password-length {
+  width: 100%;
+
+  cursor: pointer;
+}
+
+/* Checkbox */
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #d4d4d8;
+
+  cursor: pointer;
+}
+
+.checkbox input {
+  width: 17px;
+  height: 17px;
+
+  cursor: pointer;
+}
+
+/* Strength */
+
+.strength {
+  margin-bottom: 24px;
+}
+
+.strength-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.strength-header span {
+  color: #a1a1aa;
+}
+
+#strength-text {
+  font-size: 0.9rem;
+}
+
+/* Strength bar */
+
+.strength-bar {
+  width: 100%;
+  height: 7px;
+
+  overflow: hidden;
+
+  background: #27272a;
+  border-radius: 999px;
+}
+
+#strength-fill {
+  display: block;
+
+  width: 80%;
+  height: 100%;
+
+  border-radius: inherit;
+
+  background: #32cd32;
+}
+
+/* Generate */
+
+.generate-btn {
+  width: 100%;
+
+  padding: 14px 18px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #f4f4f5;
+  color: #09090b;
+
+  font-weight: 700;
+}
+
+.generate-btn:hover {
+  background: #d4d4d8;
+}
+
+.generate-btn:active {
+  transform: translateY(1px);
+}
+
+/* Responsive */
+
+@media (max-width: 500px) {
+  body {
+    padding: 16px;
+  }
+
+  .generator {
+    padding: 18px;
+  }
+
+  .header h1 {
+    font-size: 1.7rem;
+  }
+
+  .password-display {
+    flex-direction: column;
+  }
+
+  .password-display button {
+    padding: 12px;
+  }
+}
