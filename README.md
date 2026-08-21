@@ -6,23 +6,23 @@ The project allows users to generate random passwords based on their preferred l
 
 ## ✨ Features
 
-* 🔑 Generate random passwords
-* 📏 Adjustable password length from 4 to 32 characters
-* 🔠 Uppercase letters
-* 🔡 Lowercase letters
-* 🔢 Numbers
-* 🔣 Symbols
-* 💪 Password strength indicator
-* 📋 One-click copy to clipboard
-* ⚡ Automatically regenerate when settings change
-* 📱 Fully responsive design
-* 🎨 Clean dark UI
+- 🔑 Generate random passwords
+- 📏 Adjustable password length from 4 to 32 characters
+- 🔠 Uppercase letters
+- 🔡 Lowercase letters
+- 🔢 Numbers
+- 🔣 Symbols
+- 💪 Password strength indicator
+- 📋 One-click copy to clipboard
+- ⚡ Automatically regenerate when settings change
+- 📱 Fully responsive design
+- 🎨 Clean dark UI
 
 ## 🛠️ Built With
 
-* HTML5
-* CSS3
-* JavaScript (Vanilla JS)
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
 ## 📸 Preview
 
@@ -48,17 +48,17 @@ password-generator/
 
 This project helped me practice:
 
-* DOM manipulation
-* Event listeners
-* Arrays
-* Conditional logic
-* Functions
-* Random number generation
-* Dynamic UI updates
-* Clipboard API
-* Form controls
-* Responsive CSS
-* Building a small project from scratch
+- DOM manipulation
+- Event listeners
+- Arrays
+- Conditional logic
+- Functions
+- Random number generation
+- Dynamic UI updates
+- Clipboard API
+- Form controls
+- Responsive CSS
+- Building a small project from scratch
 
 ## 🔐 Password Generation
 
@@ -66,11 +66,11 @@ The generator creates a character pool based on the selected options and randoml
 
 Users can control:
 
-* Password length
-* Uppercase characters
-* Lowercase characters
-* Numbers
-* Symbols
+- Password length
+- Uppercase characters
+- Lowercase characters
+- Numbers
+- Symbols
 
 The password strength indicator changes based on the selected character types and password length.
 
