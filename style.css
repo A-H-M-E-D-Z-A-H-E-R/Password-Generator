@@ -21,7 +21,7 @@ body {
     "Segoe UI",
     sans-serif;
 
-  background: linear-gradient(black, rgb(3, 3, 28), rgb(4, 4, 46));
+  background: #09090b;
   color: #f4f4f5;
 }
 
@@ -34,11 +34,13 @@ button {
   cursor: pointer;
 }
 
+
 /* App */
 
 .app {
   width: min(520px, 100%);
 }
+
 
 /* Header */
 
@@ -57,16 +59,18 @@ button {
   color: #a1a1aa;
 }
 
+
 /* Generator */
 
 .generator {
   padding: 24px;
 
-  background: transparent;
+  background: #111113;
 
   border: 1px solid #27272a;
   border-radius: 18px;
 }
+
 
 /* Password */
 
@@ -110,6 +114,7 @@ button {
   background: #27272a;
 }
 
+
 /* Settings */
 
 .settings {
@@ -143,6 +148,7 @@ button {
   font-size: 0.9rem;
 }
 
+
 /* Range */
 
 #password-length {
@@ -150,6 +156,7 @@ button {
 
   cursor: pointer;
 }
+
 
 /* Checkbox */
 
@@ -169,6 +176,7 @@ button {
 
   cursor: pointer;
 }
+
 
 /* Strength */
 
@@ -192,6 +200,7 @@ button {
   font-size: 0.9rem;
 }
 
+
 /* Strength bar */
 
 .strength-bar {
@@ -212,8 +221,9 @@ button {
 
   border-radius: inherit;
 
-  background: #32cd32;
+  background: rgb(50, 205, 50);
 }
+
 
 /* Generate */
 
@@ -239,9 +249,11 @@ button {
   transform: translateY(1px);
 }
 
+
 /* Responsive */
 
 @media (max-width: 500px) {
+
   body {
     padding: 16px;
   }
@@ -261,4 +273,5 @@ button {
   .password-display button {
     padding: 12px;
   }
+
 }
