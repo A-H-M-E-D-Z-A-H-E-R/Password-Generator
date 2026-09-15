@@ -7,7 +7,7 @@ The project allows users to generate random passwords based on their preferred l
 
 ## 🌐 Live Demo
 
-[View Live Demo](live-demo-url)
+[View Live Demo](https://a-h-m-e-d-z-a-h-e-r.github.io/Password-Generator/)
 
 ## ✨ Features
 
